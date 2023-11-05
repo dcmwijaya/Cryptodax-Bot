@@ -41,7 +41,7 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 
 ## Menjalankan
 1. Unduh repositori ini lalu ekstrak.<br>
-2. Pindahkan direktori ``` Cryptodax-Bot ``` ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
+2. Pindahkan direktori ``` Cryptodax-Bot ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut:
          ```
          C:\xampp\htdocs
          ```.
