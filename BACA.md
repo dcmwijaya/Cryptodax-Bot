@@ -88,7 +88,7 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
          {"ok":true,"result":true,"description":"Webhook was set"}
          ```
          
-10. Jika Anda ingin menyelesaikan sesi webhook yang sedang berjalan, maka buka browser dengan mengetikkan perintah berikut:<br>
+10. Jika Anda ingin menyelesaikan ``` sesi webhook ``` yang sedang berjalan, maka buka ``` browser ``` dengan mengetikkan perintah berikut:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
