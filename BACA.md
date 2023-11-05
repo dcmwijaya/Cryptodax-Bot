@@ -36,8 +36,14 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
    ```bash
    https://getcomposer.org/Composer-Setup.exe
    ```
-    
 <br>
+
+4. Git :<br><br>
+   ```bash
+   https://git-scm.com/download/win
+   ```
+    
+<br>  
 
 ## Menjalankan
 1. Unduh repositori ini lalu ekstrak.<br>
