@@ -41,7 +41,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 
 ## Running
 1. Download this repository and extract it.<br>
-2. Move the ``` Cryptodax-Bot ``` directory into the htdocs directory, whose details you can find out as follows:
+2. Move the ``` Cryptodax-Bot ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows:
          ```
          C:\xampp\htdocs
          ```.
@@ -67,17 +67,17 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
        addr: 80
        schemes: ["http", "https"]
    ```
-7. Type the following command into NGROK.exe and press enter:
+7. Type the following command into ``` NGROK.exe ``` and press enter:
    ```bash
    ngrok start --all
    ```
 
-8. Copy your Telegram Bot API from @BotFather and paste it into the following folder (directory):<br>
+8. Copy your ``` Telegram Bot API ``` from ``` @BotFather ``` and paste it into the following folder (directory):<br>
          ```
          Cryptodax-Bot -> private -> token.txt
          ```
 
-9. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
+9. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot:<br>
 ``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```
 
     • Writing example:
@@ -89,7 +89,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
          ```
          {"ok":true,"result":true,"description":"Webhook was set"}
          ```
-10. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
+10. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
@@ -97,7 +97,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 <br>
 
 ## Issues that frequently arise
-1. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the API Token to expire. This problem is usually characterized by an abnormal state of the telegram bot, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you only need to create a new telegram bot again (automatically get a new API Token), then for the program code, please set it based on your own needs.
+1. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the ``` API Token to expire ```. This problem is usually characterized by an ``` abnormal state of the telegram bot ```, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you ``` only need to create a new telegram bot again ``` (automatically get a new API Token), then for the program code, please set it based on your own needs.
 <br>
 
 2. If the problem in point 1 is not resolved, then you should :
