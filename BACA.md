@@ -67,15 +67,15 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
        addr: 80
        schemes: ["http", "https"]
    ```
-7. Ketik perintah berikut ke dalam NGROK.exe dan tekan enter:
+7. Ketik perintah berikut ke dalam ``` NGROK.exe ``` dan tekan enter:
    ```bash
    ngrok start --all
    ```
 
-8. Salin API Bot Telegram Anda dari @BotFather dan tempelkan ke dalam folder (direktori) berikut:<br>
+8. Salin ``` API Bot Telegram ``` Anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut:<br>
 ``` Cryptodax-Bot -> private -> token.txt ```
        
-9. Buka CMD (Command Prompt) dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
+9. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
 ``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br>
 
     • Contoh penulisan:
