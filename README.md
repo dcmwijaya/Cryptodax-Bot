@@ -36,6 +36,12 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
    ```bash
    https://getcomposer.org/Composer-Setup.exe
    ```
+<br>
+
+4. Git :<br><br>
+   ```bash
+   https://git-scm.com/download/win
+   ```
     
 <br>
 
