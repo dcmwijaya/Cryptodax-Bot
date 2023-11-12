@@ -45,7 +45,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
     
 <br>
 
-## Running
+## Get Started
 1. Download this repository and extract it.<br>
 2. Move the ``` Cryptodax-Bot ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows:
          ```
