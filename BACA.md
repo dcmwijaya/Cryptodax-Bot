@@ -4,7 +4,7 @@
 ![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
 
 # Cryptodax-Bot
-<strong>Proyek Akhir Pemrograman API</strong><br>
+<strong>Tugas Pemrograman API</strong><br>
 Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 
 <br>
