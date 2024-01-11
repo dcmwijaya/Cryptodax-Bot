@@ -9,7 +9,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 
 <br>
 
-## Features / Framework / Tools
+## Project Requirements
 | Part | Description |
 | --- | --- |
 | Features | Read, Error Handling |
