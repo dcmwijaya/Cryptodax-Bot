@@ -7,7 +7,7 @@
 <strong>Tugas Pemrograman API</strong><br>
 Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 
-<br>
+<br><br>
 
 ## Kebutuhan Proyek
 | Bagian | Deskripsi |
@@ -17,52 +17,77 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 | Kerangka Kerja | Botman |
 | Peralatan | XAMPP (PHP Versi 7.4) & Ngrok |
 
-<br>
+<br><br>
 
 ## Unduh & Instal
-1. XAMPP dengan PHP versi 7.4 :<br><br>
-   ```bash
+1. XAMPP with PHP version 7.4
+
+   <table><tr><td width="810">
+
+   ```
    https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
    ```
-<br>
-   
-2. Ngrok :<br><br>
-   ```bash
+
+   </td></tr></table><br>
+
+2. Ngrok
+
+   <table><tr><td width="810">
+      
+   ```
    https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
    ```
-<br>
 
-3. Composer :<br><br>
-   ```bash
+   </td></tr></table><br>
+
+3. Composer
+
+   <table><tr><td width="810">
+      
+   ```
    https://getcomposer.org/Composer-Setup.exe
    ```
-<br>
 
-4. Git :<br><br>
-   ```bash
+   </td></tr></table><br>
+
+4. Git 
+
+   <table><tr><td width="810">
+      
+   ```
    https://git-scm.com/download/win
    ```
+
+   </td></tr></table>
     
-<br>  
+<br><br>
 
 ## Memulai
-1. Unduh repositori ini lalu ekstrak.<br>
-2. Pindahkan direktori ``` Cryptodax-Bot ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut:
-         ```
-         C:\xampp\htdocs
-         ```.
+1. Unduh repositori ini lalu ekstrak.<br><br>
+
+2. Pindahkan direktori ``` Cryptodax-Bot ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.<br><br>
    
-3. Buka ``` XAMPP ```, lalu mulai bagian ``` Apache ```.
-4. Buat akun Ngrok terlebih dahulu di halaman berikut: <strong>https://dashboard.ngrok.com/login</strong><br>
-5. Hubungkan akun ngrok dengan cara berikut:<br>
+3. Buka ``` XAMPP ```, lalu mulai bagian ``` Apache ```.<br><br>
+
+4. Buat akun Ngrok terlebih dahulu di halaman berikut: <strong>https://dashboard.ngrok.com/login</strong>.<br><br>
+
+5. Hubungkan akun ngrok dengan cara berikut:
+
+   <table><tr><td width="810">
+
    ```bash
-   ngrok config add-authtoken [TOKEN NGROK]
+   ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
    ```
 
-6. Buka berkas ``` ngrok.yml ``` di dalam direktori ``` C:\Users\[User Name]\AppData\Local\ngrok ``` , kemudian atur tunnel agar dapat digunakan untuk banyak port sekaligus dengan menuliskan perintah berikut di dalamnya:<br>
+   </td></tr></table><br>
+
+6. Buka berkas ``` ngrok.yml ``` di dalam direktori ``` C:\Users\[User Name]\AppData\Local\ngrok ``` , kemudian atur tunnel agar dapat digunakan untuk banyak port sekaligus dengan menuliskan perintah berikut di dalamnya: 
+
+   <table><tr><td width="810">
+
    ```bash
    version: "2"
-   authtoken: [TOKEN NGROK]
+   authtoken: [YOUR NGROK AUTHTOKEN]
    tunnels:
      tunnel-1:
        proto: http
@@ -73,33 +98,46 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
        addr: 80
        schemes: ["http", "https"]
    ```
+
+   </td></tr></table><br>
+   
 7. Ketik perintah berikut ke dalam ``` NGROK.exe ``` dan tekan enter:
+
+   <table><tr><td width="810">
+
    ```bash
    ngrok start --all
    ```
 
-8. Salin ``` API Bot Telegram ``` Anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut:<br>
-``` Cryptodax-Bot -> private -> token.txt ```
+   </td></tr></table><br>
+   
+8. Salin ``` API Bot Telegram ``` Anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut: ``` Cryptodax-Bot -> private -> token.txt ```.<br><br>
        
-9. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
-``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br>
+9. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br><br>
 
     • Contoh penulisan:
-    ```bash
-    curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/Cryptodax-Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook
-    ```
 
-    • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): 
-         ```
-         {"ok":true,"result":true,"description":"Webhook was set"}
-         ```
+   <table><tr><td width="810">
+      
+    ```bash
+    curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/Cryptodax-Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
+    ```
+    
+    </td></tr></table><br>
+
+    • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): ``` {"ok":true,"result":true,"description":"Webhook was set"} ```.<br><br>
          
-10. Jika Anda ingin menyelesaikan ``` sesi webhook ``` yang sedang berjalan, maka buka ``` browser ``` dengan mengetikkan perintah berikut:<br>
+11. Jika Anda ingin menyelesaikan ``` sesi webhook ``` yang sedang berjalan, maka buka ``` browser ``` dengan mengetikkan perintah berikut: 
+
+    <table><tr><td width="810">
+
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
+
+    </td></tr></table>
     
-<br>
+<br><br>
 
 ## Permasalahan yang sering muncul
 1. Masalah yang biasanya terjadi pada bot telegram berbasis Botman adalah saat pengguna telah meninggalkan bot tersebut dalam rentang waktu yang lama, hal ini dapat mengakibatkan ``` API Token menjadi kadaluarsa ```. Masalah ini biasanya ditandai dengan keadaan ``` bot telegram yang tidak normal ```, misalnya ketika pengguna memberikan perintah ``` /start ``` ataupun perintah lainnya, bot ini tetap tidak merespon. Solusi dari permasalahan ini yaitu anda ``` hanya perlu membuat bot telegram yang baru lagi ``` (otomatis dapat API Token yang baru), selanjutnya untuk kode program silakan atur berdasarkan kebutuhan anda masing-masing.
@@ -111,11 +149,15 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 
    • Instal depedensi ``` Botman ``` melalui ``` GitBash ``` dengan memberikan perintah seperti berikut:
 
+   <table><tr><td width="810">
+
    ```bash
    composer require "botman/driver-telegram"
    ```
 
-<br>
+   </td></tr></table>
+
+<br><br>
 
 ## Sorotan
 <table>
@@ -142,17 +184,17 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## Demonstrasi Aplikasi
 Via Telegram: <a href="http://t.me/cryptodax_bot">@cryptodax_bot</a>
 
-<br>
+<br><br>
 
 ## Penafian
 Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
 
-<br>
+<br><br>
 
 ## LISENSI 
 LISENSI MIT - Hak Cipta © 2020 - Devan Cakra Mudra Wijaya
