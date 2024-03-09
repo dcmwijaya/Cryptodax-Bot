@@ -7,7 +7,7 @@
 <strong>API Programming Assignment</strong><br>
 Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 
-<br>
+<br><br>
 
 ## Project Requirements
 | Part | Description |
@@ -17,49 +17,69 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 | Framework | Botman |
 | Tools | XAMPP (PHP Version 7.4) & Ngrok |
 
-<br>
+<br><br>
 
 ## Download & Install
-1. XAMPP with PHP version 7.4 :<br><br>
+1. XAMPP with PHP version 7.4
+
+   <table><tr><td width="810">
+
    ```
    https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
    ```
-<br>
 
-2. Ngrok :<br><br>
+   </td></tr></table><br>
+
+2. Ngrok
+
+   <table><tr><td width="810">
+      
    ```
    https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
    ```
-<br>
 
-3. Composer :<br><br>
+   </td></tr></table><br>
+
+3. Composer
+
+   <table><tr><td width="810">
+      
    ```
    https://getcomposer.org/Composer-Setup.exe
    ```
-<br>
 
-4. Git :<br><br>
+   </td></tr></table><br>
+
+4. Git 
+
+   <table><tr><td width="810">
+      
    ```
    https://git-scm.com/download/win
    ```
+
+   </td></tr></table>
     
-<br>
+<br><br>
 
 ## Get Started
-1. Download this repository and extract it.<br>
-2. Move the ``` Cryptodax-Bot ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows:
-         ```
-         C:\xampp\htdocs
-         ```.
+1. Download this repository and extract it.<br><br>
+
+2. Move the ``` Cryptodax-Bot ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```.<br><br>
    
-3. Open ``` XAMPP ```, then start the ``` Apache ``` section.
-4. Create an Ngrok account first on the following page: <strong>https://dashboard.ngrok.com/login</strong><br>
-5. Connect the ngrok account in the following way:<br>
+3. Open ``` XAMPP ```, then start the ``` Apache ``` section.<br><br>
+
+4. Create an Ngrok account first on the following page: <strong>https://dashboard.ngrok.com/login</strong><br><br>
+
+5. Connect the ngrok account in the following way:
+
    ```bash
    ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
    ```
+   <br>
 
-6. Open the ``` ngrok.yml ``` file in the ``` C:\Users\[User Name]\AppData\Local\ngrok ``` directory, then set the tunnels to be used for multiple ports in one go by writing this command in it:<br>
+6. Open the ``` ngrok.yml ``` file in the ``` C:\Users\[User Name]\AppData\Local\ngrok ``` directory, then set the tunnels to be used for multiple ports in one go by writing this command in it:
+
    ```bash
    version: "2"
    authtoken: [YOUR NGROK AUTHTOKEN]
@@ -73,34 +93,33 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
        addr: 80
        schemes: ["http", "https"]
    ```
+   <br>
+   
 7. Type the following command into ``` NGROK.exe ``` and press enter:
+
    ```bash
    ngrok start --all
    ```
+   <br>
 
-8. Copy your ``` Telegram Bot API ``` from ``` @BotFather ``` and paste it into the following folder (directory):<br>
-         ```
-         Cryptodax-Bot -> private -> token.txt
-         ```
+8. Copy your ``` Telegram Bot API ``` from ``` @BotFather ``` and paste it into the following folder (directory): ``` Cryptodax-Bot -> private -> token.txt ```.<br><br>
 
-9. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot:<br>
-``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```
+9. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot: ``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```
 
     • Writing example:
     ```bash
     curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/Cryptodax-Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
     ```
 
-    • The result will appear (Bot sign is already working / active): 
-         ```
-         {"ok":true,"result":true,"description":"Webhook was set"}
-         ```
-10. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
+    • The result will appear (Bot sign is already working / active):  ``` {"ok":true,"result":true,"description":"Webhook was set"} ```.<br><br>
+    
+10. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:
+
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
 
-<br>
+<br><br>
 
 ## Issues that frequently arise
 1. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the ``` API Token to expire ```. This problem is usually characterized by an ``` abnormal state of the telegram bot ```, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you ``` only need to create a new telegram bot again ``` (automatically get a new API Token), then for the program code, please set it based on your own needs.
