@@ -157,7 +157,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 
    </td></tr></table>
 
-<br>
+<br><br>
 
 ## Highlight
 <table>
@@ -184,22 +184,22 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## Demonstration of Application
 Via Telegram: <a href="http://t.me/cryptodax_bot">@cryptodax_bot</a>
 
-<br>
+<br><br>
 
 ## Appreciation
 If you find this work useful, please support it as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
 
-<br>
+<br><br>
 
 ## Disclaimer
 This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
 
-<br>
+<br><br>
 
 ## LICENSE
 MIT License - Copyright © 2020 - Devan Cakra Mudra Wijaya
