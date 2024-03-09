@@ -65,7 +65,7 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 ## Memulai
 1. Unduh repositori ini lalu ekstrak.<br><br>
 
-2. Pindahkan direktori ``` Cryptodax-Bot ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.<br><br>
+2. Pindahkan direktori ``` Cryptodax-Bot ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.<br><br>
    
 3. Buka ``` XAMPP ```, lalu mulai bagian ``` Apache ```.<br><br>
 
@@ -111,7 +111,7 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 
    </td></tr></table><br>
    
-8. Salin ``` API Bot Telegram ``` Anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut: ``` Cryptodax-Bot -> private -> token.txt ```.<br><br>
+8. Salin ``` API Bot Telegram ``` anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut: ``` Cryptodax-Bot -> private -> token.txt ```.<br><br>
        
 9. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br><br>
 
@@ -127,7 +127,7 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 
     • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): ``` {"ok":true,"result":true,"description":"Webhook was set"} ```.<br><br>
          
-11. Jika Anda ingin menyelesaikan ``` sesi webhook ``` yang sedang berjalan, maka buka ``` browser ``` dengan mengetikkan perintah berikut: 
+11. Jika anda ingin menyelesaikan ``` sesi webhook ``` yang sedang berjalan, maka buka ``` browser ``` dengan mengetikkan perintah berikut: 
 
     <table><tr><td width="810">
 
@@ -143,7 +143,7 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 1. Masalah yang biasanya terjadi pada bot telegram berbasis Botman adalah saat pengguna telah meninggalkan bot tersebut dalam rentang waktu yang lama, hal ini dapat mengakibatkan ``` API Token menjadi kadaluarsa ```. Masalah ini biasanya ditandai dengan keadaan ``` bot telegram yang tidak normal ```, misalnya ketika pengguna memberikan perintah ``` /start ``` ataupun perintah lainnya, bot ini tetap tidak merespon. Solusi dari permasalahan ini yaitu anda ``` hanya perlu membuat bot telegram yang baru lagi ``` (otomatis dapat API Token yang baru), selanjutnya untuk kode program silakan atur berdasarkan kebutuhan anda masing-masing.
 <br>
 
-2. Jika masalah pada poin 1 tidak teratasi, maka Anda harus :
+2. Jika masalah pada poin 1 tidak teratasi, maka anda harus :
    
    • Menghapus 3 file yang ada di dalam direktori ``` C:\xampp\htdocs\Cryptodax-Bot ``` yaitu ``` composer.json ```, ``` composer.lock ```, dan ``` vendor ```.
 
