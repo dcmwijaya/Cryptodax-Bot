@@ -25,7 +25,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
    <table><tr><td width="810">
 
    ```
-   https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
+   https://bit.ly/XAMPP_PHP7_Installer
    ```
 
    </td></tr></table><br>
@@ -35,7 +35,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
    <table><tr><td width="810">
       
    ```
-   https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
+   https://bit.ly/NGROK_Installer
    ```
 
    </td></tr></table><br>
@@ -45,7 +45,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
    <table><tr><td width="810">
       
    ```
-   https://getcomposer.org/Composer-Setup.exe
+   https://bit.ly/Composer_Installer
    ```
 
    </td></tr></table><br>
@@ -55,7 +55,7 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
    <table><tr><td width="810">
       
    ```
-   https://git-scm.com/download/win
+   https://bit.ly/GIT_Installer
    ```
 
    </td></tr></table>
