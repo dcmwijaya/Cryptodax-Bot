@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://github.com/devancakra/Cryptodax-Bot)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Cryptodax-Bot)
-![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Cryptodax-Bot?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Multi-%2DPlatform-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Course-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Cryptodax-Bot
 <strong>Tugas Pemrograman API</strong><br>
@@ -165,22 +166,22 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 <th colspan="4">Bot Telegram</th>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/a8aa403d-aae6-4fe9-9c6c-6f217ed599a5" alt="TGbot-1"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/7bffc607-0692-4b7a-9fd7-8ec2ce848e5d" alt="TGbot-2"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/b0dc2f06-5abc-46a1-9fac-68e7432c0225" alt="TGbot-3"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/2435cdd7-86b5-4a4e-9935-08d6410a93ea" alt="TGbot-4"></td>
+<td width="210"><img src="documentation/Telegram Bot View-1.jpg" alt="TGbot-1"></td>
+<td width="210"><img src="documentation/Telegram Bot View-2.jpg" alt="TGbot-2"></td>
+<td width="210"><img src="documentation/Telegram Bot View-3.jpg" alt="TGbot-3"></td>
+<td width="210"><img src="documentation/Telegram Bot View-4.jpg" alt="TGbot-4"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/b3fe335d-e733-4fa2-b626-5fbe13dd754d" alt="TGbot-5"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/8a961333-602e-4329-a447-922b45a8b4cf" alt="TGbot-6"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/bd00baa9-f206-4aa8-b596-58ac9427368f" alt="TGbot-7"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/da6a2b20-cef6-47af-8d0c-e3f82cdaf24b" alt="TGbot-8"></td>
+<td width="210"><img src="documentation/Telegram Bot View-5.jpg" alt="TGbot-5"></td>
+<td width="210"><img src="documentation/Telegram Bot View-6.jpg" alt="TGbot-6"></td>
+<td width="210"><img src="documentation/Telegram Bot View-7.jpg" alt="TGbot-7"></td>
+<td width="210"><img src="documentation/Telegram Bot View-8.jpg" alt="TGbot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/11320b99-8ea1-4930-9f60-82f83e4647e0" alt="TGbot-9"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/f889ff7a-45cf-407c-9d71-bb3511802f4b" alt="TGbot-10"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/c845b3ea-7638-4b44-a5be-699a18fd5ab2" alt="TGbot-11"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/60eff8ad-5fd8-4865-a113-af107e5edb23" alt="TGbot-12"></td>
+<td width="210"><img src="documentation/Telegram Bot View-9.jpg" alt="TGbot-9"></td>
+<td width="210"><img src="documentation/Telegram Bot View-10.jpg" alt="TGbot-10"></td>
+<td width="210"><img src="documentation/Telegram Bot View-11.jpg" alt="TGbot-11"></td>
+<td width="210"><img src="documentation/Telegram Bot View-12.jpg" alt="TGbot-12"></td>
 </tr>
 </table>
 
@@ -197,12 +198,12 @@ Jika karya ini bermanfaat bagi anda, maka dukunglah karya ini sebagai bentuk apr
 <br><br>
 
 ## Penafian
-Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
+Aplikasi ini merupakan hasil karya saya sendiri dan bukan merupakan hasil plagiat dari penelitian atau karya orang lain, kecuali yang berkaitan dengan layanan pihak ketiga yang meliputi: pustaka, kerangka kerja, dan lain sebagainya.
 
 <br><br>
 
 ## LISENSI 
-LISENSI MIT - Hak Cipta © 2020 - Devan Cakra Mudra Wijaya
+LISENSI MIT - Hak Cipta © 2020 - Devan C. M. Wijaya
 
 Dengan ini diberikan izin tanpa biaya kepada siapa pun yang mendapatkan salinan perangkat lunak ini dan file dokumentasi terkait perangkat lunak untuk menggunakannya tanpa batasan, termasuk namun tidak terbatas pada hak untuk menggunakan, menyalin, memodifikasi, menggabungkan, mempublikasikan, mendistribusikan, mensublisensikan, dan/atau menjual salinan Perangkat Lunak ini, dan mengizinkan orang yang menerima Perangkat Lunak ini untuk dilengkapi dengan persyaratan berikut:
 

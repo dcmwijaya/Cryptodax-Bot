@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://github.com/devancakra/Cryptodax-Bot)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Cryptodax-Bot)
-![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Cryptodax-Bot?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Multi-%2DPlatform-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Course-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Cryptodax-Bot
 <strong>API Programming Assignment</strong><br>
@@ -165,22 +166,22 @@ Indodax Cryptocurrency Reading Through PHP-Based Telegram Bot
 <th colspan="4">Telegram Bot</th>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/a8aa403d-aae6-4fe9-9c6c-6f217ed599a5" alt="TGbot-1"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/7bffc607-0692-4b7a-9fd7-8ec2ce848e5d" alt="TGbot-2"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/b0dc2f06-5abc-46a1-9fac-68e7432c0225" alt="TGbot-3"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/2435cdd7-86b5-4a4e-9935-08d6410a93ea" alt="TGbot-4"></td>
+<td width="210"><img src="documentation/Telegram Bot View-1.jpg" alt="TGbot-1"></td>
+<td width="210"><img src="documentation/Telegram Bot View-2.jpg" alt="TGbot-2"></td>
+<td width="210"><img src="documentation/Telegram Bot View-3.jpg" alt="TGbot-3"></td>
+<td width="210"><img src="documentation/Telegram Bot View-4.jpg" alt="TGbot-4"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/b3fe335d-e733-4fa2-b626-5fbe13dd754d" alt="TGbot-5"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/8a961333-602e-4329-a447-922b45a8b4cf" alt="TGbot-6"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/bd00baa9-f206-4aa8-b596-58ac9427368f" alt="TGbot-7"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/da6a2b20-cef6-47af-8d0c-e3f82cdaf24b" alt="TGbot-8"></td>
+<td width="210"><img src="documentation/Telegram Bot View-5.jpg" alt="TGbot-5"></td>
+<td width="210"><img src="documentation/Telegram Bot View-6.jpg" alt="TGbot-6"></td>
+<td width="210"><img src="documentation/Telegram Bot View-7.jpg" alt="TGbot-7"></td>
+<td width="210"><img src="documentation/Telegram Bot View-8.jpg" alt="TGbot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/11320b99-8ea1-4930-9f60-82f83e4647e0" alt="TGbot-9"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/f889ff7a-45cf-407c-9d71-bb3511802f4b" alt="TGbot-10"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/c845b3ea-7638-4b44-a5be-699a18fd5ab2" alt="TGbot-11"></td>
-<td width="210"><img src="https://github.com/devancakra/Cryptodax-Bot/assets/54527592/60eff8ad-5fd8-4865-a113-af107e5edb23" alt="TGbot-12"></td>
+<td width="210"><img src="documentation/Telegram Bot View-9.jpg" alt="TGbot-9"></td>
+<td width="210"><img src="documentation/Telegram Bot View-10.jpg" alt="TGbot-10"></td>
+<td width="210"><img src="documentation/Telegram Bot View-11.jpg" alt="TGbot-11"></td>
+<td width="210"><img src="documentation/Telegram Bot View-12.jpg" alt="TGbot-12"></td>
 </tr>
 </table>
 
@@ -197,12 +198,12 @@ If this work is useful to you, then support this work as a form of appreciation 
 <br><br>
 
 ## Disclaimer
-This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+This application is my own work and is not the result of plagiarism from other people's research or work, except those related to third party services which include: libraries, frameworks, and so on.
 
 <br><br>
 
 ## LICENSE
-MIT License - Copyright © 2020 - Devan Cakra Mudra Wijaya
+MIT License - Copyright © 2020 - Devan C. M. Wijaya
 
 Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
 
