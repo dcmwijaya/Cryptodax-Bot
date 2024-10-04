@@ -166,22 +166,22 @@ Pembacaan Cryptocurrency Indodax Melalui Bot Telegram Berbasis PHP
 <th colspan="4">Bot Telegram</th>
 </tr>
 <tr>
-<td width="210"><img src="documentation/Telegram Bot View-1.jpg" alt="TGbot-1"></td>
-<td width="210"><img src="documentation/Telegram Bot View-2.jpg" alt="TGbot-2"></td>
-<td width="210"><img src="documentation/Telegram Bot View-3.jpg" alt="TGbot-3"></td>
-<td width="210"><img src="documentation/Telegram Bot View-4.jpg" alt="TGbot-4"></td>
+<td width="210"><img src="documentation/Telegram Bot View-1.jpg" alt="telegram-bot-1"></td>
+<td width="210"><img src="documentation/Telegram Bot View-2.jpg" alt="telegram-bot-2"></td>
+<td width="210"><img src="documentation/Telegram Bot View-3.jpg" alt="telegram-bot-3"></td>
+<td width="210"><img src="documentation/Telegram Bot View-4.jpg" alt="telegram-bot-4"></td>
 </tr>
 <tr>
-<td width="210"><img src="documentation/Telegram Bot View-5.jpg" alt="TGbot-5"></td>
-<td width="210"><img src="documentation/Telegram Bot View-6.jpg" alt="TGbot-6"></td>
-<td width="210"><img src="documentation/Telegram Bot View-7.jpg" alt="TGbot-7"></td>
-<td width="210"><img src="documentation/Telegram Bot View-8.jpg" alt="TGbot-8"></td>
+<td width="210"><img src="documentation/Telegram Bot View-5.jpg" alt="telegram-bot-5"></td>
+<td width="210"><img src="documentation/Telegram Bot View-6.jpg" alt="telegram-bot-6"></td>
+<td width="210"><img src="documentation/Telegram Bot View-7.jpg" alt="telegram-bot-7"></td>
+<td width="210"><img src="documentation/Telegram Bot View-8.jpg" alt="telegram-bot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="documentation/Telegram Bot View-9.jpg" alt="TGbot-9"></td>
-<td width="210"><img src="documentation/Telegram Bot View-10.jpg" alt="TGbot-10"></td>
-<td width="210"><img src="documentation/Telegram Bot View-11.jpg" alt="TGbot-11"></td>
-<td width="210"><img src="documentation/Telegram Bot View-12.jpg" alt="TGbot-12"></td>
+<td width="210"><img src="documentation/Telegram Bot View-9.jpg" alt="telegram-bot-9"></td>
+<td width="210"><img src="documentation/Telegram Bot View-10.jpg" alt="telegram-bot-10"></td>
+<td width="210"><img src="documentation/Telegram Bot View-11.jpg" alt="telegram-bot-11"></td>
+<td width="210"><img src="documentation/Telegram Bot View-12.jpg" alt="telegram-bot-12"></td>
 </tr>
 </table>
 
